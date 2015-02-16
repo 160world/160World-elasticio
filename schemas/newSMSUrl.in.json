@@ -1,0 +1,25 @@
+{
+	"type": "object",
+	"properties": {
+		"sender": {
+			"type": "string",
+			"title": "Sender",
+			"required": true
+		},
+		"to": {
+			"type": "string",
+			"title": "Destination's phone number",
+			"required": true
+		},
+		"message": {
+			"type": "string",
+			"title": "SMS's text body",
+			"required": true
+		},
+		"url": {
+			"type": "string",
+			"title": "Url you want to short",
+			"required": true
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"title": "160World",
+	"description": "160World SMS an easy way to send SMS",
+	"credentials": {
+		"fields": {
+			"username": {
+				"label": "User",
+				"required": true,
+				"viewClass": "TextFieldView",
+				"placeholder": "160World account user name"
+			},
+			"password": {
+				"label": "Password",
+				"required": true,
+				"viewClass": "TextFieldView",
+				"placeholder": "160World account password"
+			}
+		}
+	},
+	"actions": {
+		"newSMS": {
+			"main": "./lib/actions/newSMS.js",
+			"title": "New SMS",
+			"metadata": {
+				"in": "./schemas/newSMS.in.json"
+			}
+		},
+		"newSMSUrl": {
+			"main": "./lib/actions/newSMSUrl.js",
+			"title": "New SMS + URL Short",
+			"metadata": {
+				"in": "./schemas/newSMSUrl.in.json"
+			}
+		}
+	}
+}
