@@ -1,2 +1,31 @@
 {
+   "fixtures":{
+        "new":{
+            "msg":{
+                "body":{
+                    "sender": "{{160world_sender_address}}",
+                    "to":  "{{160world_to_number}}",
+                    "message": "{{160world_message_text}}"
+                }
+            },
+            "cfg":{
+                "username": "{{160world_username}}",
+                "password": "{{160world_password}}"
+            }
+        },
+        "newurl":{
+            "msg":{
+                "body":{
+                    "sender": "{{160world_sender_address}}",
+                    "to":  "{{160world_to_number}}",
+                    "message": "{{160world_message_text}}",
+                    "url": "{{160world_url}}"
+                }
+            },
+            "cfg":{
+                "username": "{{160world_username}}",
+                "password": "{{160world_password}}"
+            }
+        }
+    }
 }
